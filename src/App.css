@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  border: 2rem;
+
+}
+
+.card {
+  padding: 0.3rem;
+  margin-top: 0.1cqmin;
+   border-radius: 2rem;
+  background-color: white;
+}
+
+.plan {
+  letter-spacing: 0.15rem;
+}
+
+.card-body {
+  line-height: 2;
+}
+
+ul.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.custom-list li {
+  display: flex;
+  align-items: center;
+}
+
+ul.custom-list li::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+  background-size: cover;
+}
+
+.includedLi::before {
+  background-image: url('./assets/include.png');
+}
+
+.mutedLi::before {
+  background-image: url('./assets/exclude.png');
+}
+
+.includeLi {
+  color: black;
+}
+
+.mutedLi {
+  color: grey;
+}
+
+.price-display {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 0.8rem;
+  height: 3rem;
+  letter-spacing: 0.1rem;
+  background-color: #33AEFF;
+  border-radius: rem;
+}
+
